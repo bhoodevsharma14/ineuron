@@ -1,0 +1,229 @@
+2022-07-03 10:53:48,896 - root - __init__() missing 1 required positional argument: 'l'
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 43, in <module>
+    list_task_object = list_task.ListTask()
+TypeError: __init__() missing 1 required positional argument: 'l'
+2022-07-03 10:54:41,255 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 10:58:48,845 - root - extracting_list() missing 1 required positional argument: 'extracting_from_list'
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 44, in <module>
+    print(list(task_01.ListTask.extracting_list(l)))
+TypeError: extracting_list() missing 1 required positional argument: 'extracting_from_list'
+2022-07-03 11:13:11,278 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 11:13:11,278 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 11:14:21,458 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 11:14:21,458 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 11:19:12,916 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 11:19:12,916 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 11:19:12,917 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:39:42,224 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:39:42,224 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:39:42,224 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:39:42,224 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:39:42,225 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 85, in extract_numbers
+    numbers.extend(child_numbers)
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 28, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 12:41:19,667 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:41:19,667 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:41:19,667 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:41:19,667 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:41:19,667 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 86, in extract_numbers
+    numbers.extend(child_numbers)
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 29, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 12:42:00,533 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:00,533 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:00,533 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:00,533 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:00,533 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 87, in extract_numbers
+    numbers.extend(child_numbers)
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 29, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 12:42:31,575 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:31,575 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:31,575 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:31,575 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:42:31,575 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 87, in extract_numbers
+    numbers.extend(child_numbers)
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 29, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 12:45:47,422 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:45:47,422 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:45:47,423 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:45:47,423 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:45:47,424 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 88, in extract_numbers
+    numbers.extend(child_numbers)
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 29, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 12:46:00,505 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:00,505 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:00,505 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:00,505 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:00,505 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 77, in extract_numbers
+    print(list(child_numbers))
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 29, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 12:46:57,976 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:57,977 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:57,977 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:57,977 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 12:46:57,977 - root - 'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 77, in extract_numbers
+    child_numbers = list(child_numbers)
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 29, in isNumber
+    for i in input:
+TypeError: 'int' object is not iterable
+2022-07-03 21:28:06,822 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:28:06,822 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:28:06,822 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:28:06,822 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:49:18,125 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:49:18,125 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:49:18,126 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:49:18,126 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:20,596 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:20,597 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:20,598 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:20,598 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:44,102 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:44,102 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:44,102 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 21:54:44,102 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:17,628 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:17,629 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:17,629 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:17,630 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:45,220 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:45,220 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:45,220 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:00:45,220 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:02:41,439 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:02:41,441 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:02:41,444 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:02:41,446 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:14:42,647 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:14:42,647 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:14:42,647 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:14:42,647 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:24:18,039 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:24:18,039 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:24:18,039 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:24:18,039 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:29:34,437 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:29:34,437 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:29:34,437 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:29:34,437 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:32:32,277 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:32:32,277 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:32:32,277 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:32:32,277 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:36:23,430 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:36:23,430 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:36:23,430 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:36:23,430 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:45:47,489 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:45:47,489 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:45:47,489 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:45:47,489 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:45:47,490 - root - local variable 'val' referenced before assignment
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 253, in <module>
+    print(f"\nQuestion 10. Extracting only string data:-\n{num_obj.extract_string(l)}")
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 139, in extract_string
+    for key,val in val:
+UnboundLocalError: local variable 'val' referenced before assignment
+2022-07-03 22:46:00,482 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:00,482 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:00,482 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:00,483 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:00,483 - root - local variable 'val' referenced before assignment
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 253, in <module>
+    print(f"\nQuestion 10. Extracting only string data:-\n{num_obj.extract_string(l)}")
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 139, in extract_string
+    for key,val in val:
+UnboundLocalError: local variable 'val' referenced before assignment
+2022-07-03 22:46:29,229 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:29,229 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:29,230 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:29,230 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:46:29,230 - root - local variable 'val' referenced before assignment
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 253, in <module>
+    print(f"\nQuestion 10. Extracting only string data:-\n{num_obj.extract_string(l)}")
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 139, in extract_string
+    for key,val in val:
+UnboundLocalError: local variable 'val' referenced before assignment
+2022-07-03 22:47:21,446 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:21,447 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:21,447 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:21,447 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:21,447 - root - cannot unpack non-iterable int object
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 253, in <module>
+    print(f"\nQuestion 10. Extracting only string data:-\n{num_obj.extract_string(l)}")
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 139, in extract_string
+    for key,val in value:
+TypeError: cannot unpack non-iterable int object
+2022-07-03 22:47:46,715 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:46,716 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:46,716 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:47:46,717 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:56:04,327 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:56:04,327 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:56:04,327 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 22:56:04,327 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:08:59,171 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:08:59,171 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:08:59,171 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:08:59,171 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:10:21,087 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:10:21,087 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:10:21,087 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:10:21,088 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,782 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,782 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,782 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,782 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,782 - root - Sum all the value of [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 3, 6, 7, 8]
+2022-07-03 23:28:27,782 - root - filtering odd values from [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 3, 6, 7, 8]
+2022-07-03 23:28:27,782 - root - Extract 'ineuron' from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,783 - root - flat_data method is called with argument [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,783 - root - Count occurance of every data in [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 'k1', 'sudh', 'k2', 'ineuron', 'k3', 'kumar', 3, 6, 7, 8, 'ineuron', 'data science']
+2022-07-03 23:28:27,783 - root - Counting keys from the dict data [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,783 - root - Extracting String data from  [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:28:27,783 - root - Extracting alphanum data from ['k1', 'sudh', 'k2', 'ineuron', 'k3', 'kumar', 'ineuron', 'data science']
+2022-07-03 23:28:27,783 - root - Finding product of numerical data [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 3, 6, 7, 8]
+2022-07-03 23:30:13,072 - root - we are trying to extrace only list from the given list [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,073 - root - Trying to get all the dictionaries from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,074 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,074 - root - Trying to get all the tuples from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,075 - root - Sum all the value of [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 3, 6, 7, 8]
+2022-07-03 23:30:13,076 - root - filtering odd values from [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 3, 6, 7, 8]
+2022-07-03 23:30:13,077 - root - Extract 'ineuron' from [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,077 - root - flat_data method is called with argument [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,078 - root - Count occurance of every data in [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 'k1', 'sudh', 'k2', 'ineuron', 'k3', 'kumar', 3, 6, 7, 8, 'ineuron', 'data science']
+2022-07-03 23:30:13,078 - root - Counting keys from the dict data [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,079 - root - Extracting String data from  [[1, 2, 3, 4], (2, 3, 4, 5, 6), (3, 4, 5, 6, 7), {45, 4, 5, 223}, {'k1': 'sudh', 'k2': 'ineuron', 'k3': 'kumar', 3: 6, 7: 8}, ['ineuron', 'data science']]
+2022-07-03 23:30:13,079 - root - Extracting alphanum data from ['k1', 'sudh', 'k2', 'ineuron', 'k3', 'kumar', 'ineuron', 'data science']
+2022-07-03 23:30:13,080 - root - Finding product of numerical data [1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 223, 3, 6, 7, 8]

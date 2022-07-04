@@ -1,0 +1,49 @@
+2022-07-03 09:43:08,234 - root - reverse_list() missing 1 required positional argument: 'list_to_reverse'
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/list_task.py", line 87, in <module>
+    print(new_object.reverse_list())
+TypeError: reverse_list() missing 1 required positional argument: 'list_to_reverse'
+2022-07-03 09:43:43,054 - root - {}
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/list_task.py", line 87, in <module>
+    print(new_object.reverse_list())
+TypeError: reverse_list() missing 1 required positional argument: 'list_to_reverse'
+2022-07-03 09:46:55,036 - root - Reversing of list function is called with input data [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:46:55,036 - root - Trying to access 234 from list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:46:55,036 - root - Trying to access 456 from list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:46:55,036 - root - we are trying to extrace only list from the given list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:46:55,036 - root - we are trying fetch 'sudh' from the given list
+2022-07-03 09:46:55,036 - root - trying to list all the keys from dict in list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:46:55,036 - root - trying to get values from dict inside the given list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:33,798 - root - Reversing of list function is called with input data [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:33,798 - root - Trying to access 234 from list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:33,798 - root - Trying to access 456 from list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:33,798 - root - we are trying to extrace only list from the given list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:33,798 - root - we are trying fetch 'sudh' from the given list
+2022-07-03 09:51:33,798 - root - trying to list all the keys from dict in list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:33,798 - root - trying to get values from dict inside the given list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:48,032 - root - Reversing of list function is called with input data [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:48,032 - root - Trying to access 234 from list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:48,032 - root - Trying to access 456 from list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:48,032 - root - we are trying to extrace only list from the given list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:48,033 - root - we are trying fetch 'sudh' from the given list
+2022-07-03 09:51:48,033 - root - trying to list all the keys from dict in list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 09:51:48,033 - root - trying to get values from dict inside the given list [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+2022-07-03 10:48:45,500 - root - Reversing of list function is called with input data 
+2022-07-03 10:48:45,500 - root - extracting_list() missing 1 required positional argument: 'extracting_from_list'
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 42, in <module>
+    print(list(list_task.ListTask.extracting_list(l)))
+TypeError: extracting_list() missing 1 required positional argument: 'extracting_from_list'
+2022-07-03 10:49:48,993 - root - Reversing of list function is called with input data 
+2022-07-03 10:49:48,993 - root - extracting_list() missing 1 required positional argument: 'extracting_from_list'
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 43, in <module>
+    print(list(list_task.ListTask.extracting_list(l)))
+TypeError: extracting_list() missing 1 required positional argument: 'extracting_from_list'
+2022-07-03 10:51:37,456 - root - Reversing of list function is called with input data 
+2022-07-03 10:51:37,456 - root - __init__() missing 1 required positional argument: 'l'
+Traceback (most recent call last):
+  File "/home/bhoodev/ineuron/oops/task/task_02.py", line 43, in <module>
+    list_task_object = list_task.ListTask()
+TypeError: __init__() missing 1 required positional argument: 'l'
